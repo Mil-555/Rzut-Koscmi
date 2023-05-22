@@ -1,0 +1,42 @@
+body{
+    font-family: 'Comic Sans MS';
+}
+main{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    display: flex;
+}
+.lewy , .prawy{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    color: black;
+    border: 10px solid black;
+    border-radius: 20px;
+}
+input{
+    margin: auto;
+    display: flex;
+    width: 150px;
+    height: 80px;
+    font-family: 'Comic Sans MS';
+    font-size: 40px;
+    justify-content: center;
+    color: black;
+    border: 10px solid black;
+    border-radius: 20px;
+    background-color: red;
+    box-shadow: 5px 5px 5px gray;
+}
+input:hover{
+    box-shadow: 5px 5px 5px red;
+}
+input:active{
+    background-color: black;
+    color: red;
+    border: 10px solid red;
+    box-shadow: 5px 5px 5px red;
+}
